@@ -10,8 +10,9 @@ This repository has multiple tags that relate to RedHat versions.
 
 |RedHat Version|Docker image tag|
 |------------------|-------------------|
-|8                 |8                  |
-|9 (latest)        |9, latest          |
+| 8                | 8                 |
+| 9                | 9                 |
+| 10 (latest)      | 10, latest        |
 
 Manually starting
 -----------------

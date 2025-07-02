@@ -26,6 +26,10 @@ jobs:
             tags: |
               ${{ github.repository }}:9
               ghcr.io/${{ github.repository }}:9
+          - context: 10
+            tags: |
+              ${{ github.repository }}:10
+              ghcr.io/${{ github.repository }}:10
               ${{ github.repository }}:latest
               ghcr.io/${{ github.repository }}:latest
 

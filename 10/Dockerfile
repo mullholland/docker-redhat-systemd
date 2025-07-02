@@ -1,7 +1,7 @@
-FROM registry.access.redhat.com/ubi8/ubi:latest
+FROM registry.access.redhat.com/ubi10/ubi:latest
 
 LABEL maintainer="mullholland"
-LABEL build_date="2023-11-25"
+LABEL build_date="2025-07-02"
 
 ENV container=docker
 
@@ -35,6 +35,7 @@ RUN yum makecache --timer \
 
 # Disable requiretty.
 RUN sed -i -e 's/^\(Defaults\s*requiretty\)/#--- \1/'  /etc/sudoers
+
 
 VOLUME ["/sys/fs/cgroup"]
 
