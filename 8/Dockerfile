@@ -1,7 +1,7 @@
 FROM registry.access.redhat.com/ubi8/ubi:latest
 
 LABEL maintainer="mullholland"
-LABEL build_date="2025-07-02"
+LABEL build_date="2026-04-05"
 
 ENV container=docker
 
