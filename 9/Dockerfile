@@ -31,6 +31,8 @@ RUN yum makecache --timer \
       procps-ng \
       ca-certificates \
       iproute \
+      python3 \
+      python3-pip \
  && yum clean all
 
 # Disable requiretty.
